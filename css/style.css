@@ -1,0 +1,201 @@
+html {
+  font-size: 18px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  min-width: max-content;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* Blocks */
+.conteiner {
+  width: 100%;
+  max-width: 1130px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.technology {
+  background-color: #ED4C5C;
+  color: #E5E5E5;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.technology__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.technology__inner {
+  margin: auto;
+  margin-left: 0;
+}
+.technology__title {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  width: 24.72rem;
+  margin-bottom: 2rem;
+  margin-top: 0px;
+}
+.technology__subtitle {
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  text-align: left;
+  width: 24.72rem;
+  margin-bottom: 2.44rem;
+}
+.app-icons__link {
+  text-decoration: none;
+  width: 1.33rem;
+  height: 1.33rem;
+  vertical-align: middle;
+  margin-right: 1.33rem;
+}
+.app-icons__link img {
+  transition: transform 0.2s linear;
+}
+.app-icons__link img:hover {
+  transform: translateY(-2px);
+}
+.technology__slider {
+  width: 29.6rem;
+  margin: 5.23rem 0;
+}
+.contact {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  margin-bottom: 6.5rem;
+}
+.contact__inner {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+.contact__title {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  width: 24.72rem;
+  margin-bottom: 2rem;
+  margin-top: 0px;
+}
+.contact__subtitle {
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  text-align: left;
+  width: 24.72rem;
+}
+.form {
+  margin: 0;
+}
+.form__name {
+  margin-bottom: 1.33rem;
+  display: flex;
+}
+#first-name {
+  margin: 0;
+  width: 14.17rem;
+  height: 3.33rem;
+  margin-right: 1.66rem;
+}
+#last-name {
+  width: 14.17rem;
+  height: 3.33rem;
+}
+.form__number {
+  margin-bottom: 1.33rem;
+}
+#phone,
+#select-service {
+  width: 30rem;
+  height: 3.33rem;
+}
+.form__select-service select {
+  margin-bottom: 1.33rem;
+  appearance: none;
+  background: url(../img/ChevronDown.png) no-repeat right;
+  background-position-x: calc(100% - 1.6rem);
+}
+.form__button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  border: 1px solid #ED4C5C;
+  border-radius: 0.33rem;
+  padding: 0.9rem 1.9rem;
+  text-decoration: none;
+  background-color: #ED4C5C;
+  color: #E5E5E5;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+.form__button:hover {
+  background-color: transparent;
+  color: #ED4C5C;
+}
+select,
+input {
+  color: gray;
+  outline-color: #ED4C5C;
+  border: solid 1px #E5E5E5;
+  border-radius: 0.33rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  font-style: inherit;
+}
+.footer {
+  background-color: #E5E5E5;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer__wrapper {
+  padding-top: 4.75rem;
+  padding-bottom: 4.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+.f-title {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1.83rem;
+}
+.f-subtitle {
+  font-size: 0.67rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 0.2rem;
+}
+.f-social {
+  padding-top: 0.5rem;
+}
+.copyright {
+  padding-top: 7.83rem;
+}
